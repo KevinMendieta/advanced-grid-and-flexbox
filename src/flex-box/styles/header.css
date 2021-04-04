@@ -1,0 +1,87 @@
+.header {
+  height: 8rem;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f46250;
+  border-radius: 30px;
+  padding: 0px 60px;
+  margin: 30px;
+}
+
+.input__container {
+  width: 400px;
+  height: 46px;
+}
+
+.glass {
+  position: absolute;
+  z-index: 2;
+  padding: 13px;
+  width: 19px;
+  height: 19px;
+}
+
+.header__input {
+  width: 400px;
+  height: 46px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  padding: 0;
+  font-size: 16px;
+  text-indent: 50px;
+}
+
+.header__input:hover {
+  opacity: 0.9;
+  border: 1px solid black;
+  transition: ease-in-out 0.3s;
+}
+
+.header__input:not(:placeholder-shown) {
+  opacity: 0.9;
+  border: 1px solid black;
+  transition: ease-in-out 0.3s;
+}
+
+.header__title {
+  color: #fcdcd9;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0;
+}
+
+.header__container {
+  width: 586px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav {
+  width: 100px;
+}
+
+.header__nav__options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.bell {
+  width: 18px;
+  height: 23px;
+}
+
+.profile {
+  width: 46px;
+  height: 46px;
+}

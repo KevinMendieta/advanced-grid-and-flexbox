@@ -1,0 +1,47 @@
+.nav-bar {
+  height: 100%;
+  width: 147px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  border-radius: 30px;
+  margin-left: 100px;
+  background-color: #f46250;
+}
+
+.nav__top-content {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__list {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.nav__icon {
+  width: 62px;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #f46250;
+  border-radius: 15px;
+}
+
+.nav__icon:hover {
+  background: rgba(252, 220, 217, 0.2);
+  transition: opacity 0.3s background 0.3s;
+}
+
+.active {
+  background-color: rgba(252, 220, 217, 0.2);
+}
